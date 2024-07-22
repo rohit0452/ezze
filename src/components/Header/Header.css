@@ -1,0 +1,39 @@
+* {
+  color: #ffffff;
+}
+
+.link {
+  cursor: pointer;
+}
+.border-bottom {
+  border-bottom: 4px solid #ffffff !important;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.padding_important {
+  padding-left: 2rem !important;
+}
+
+.padding_important1 {
+  padding: 12px 2rem !important;
+}
+.sidebar_card {
+  margin-top: 2rem !important;
+}
+.sidebar_item {
+  background-color: #ffffff1a;
+  font-weight: 500;
+  position: relative;
+}
+
+.sidebar_item::before{
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background-color: #ffffff;
+    right: -7px;
+    transform: rotate(45deg);
+    top: 40%;
+
+}

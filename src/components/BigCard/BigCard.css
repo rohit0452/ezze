@@ -1,0 +1,30 @@
+.big_card {
+  height: 184px;
+  border-radius: 16px;
+  padding: 1.5rem !important;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: "center";
+  color: black !important;
+  /* background-color: rgba(238, 238, 238, 1); */
+  cursor: pointer;
+}
+
+.bigcard1 {
+  background: url("../../images/Rectangle\ 44673.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bigcard2 {
+  background: url("../../images/Rectangle\ 44674.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.big_card:hover {
+  transform: scale(1.01);
+  transition: 0.3s all linear;
+}

@@ -1,0 +1,30 @@
+
+.small_card{
+         /* width: "245px", */
+        height: 160px;
+        border-radius : 16px ;
+        background:rgba(238, 238, 238, 1);
+        padding: 1.5rem !important;
+        cursor: pointer;
+        color: black !important;
+        position: relative;
+}
+
+.small_card:hover{
+    background-color: #081C2F;
+    color: #EEEEEE !important;
+}
+
+.small-card{
+    margin: 1.5rem !important;
+    margin-top: 2rem !important;
+}
+.horizontal_line{
+    background-color: #555CCE;
+    width: 3px;
+    position: absolute;
+    top: 50%;
+    right: 24px;
+    transform:  translateY(-50%);
+    height: 100px;
+}
